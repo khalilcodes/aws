@@ -7,7 +7,7 @@ class Signup extends React.Component {
             <div>
                 <div class="container" id="container">
                     <div class="form-container sign-up-container">
-                        <form action="#">
+                        <form action="/mainpage">
                             <h1>Create Account</h1>
                             
                             <input type="text" placeholder="Name" />
@@ -17,7 +17,7 @@ class Signup extends React.Component {
                         </form>
                     </div>
                     <div class="form-container sign-in-container">
-                        <form action="#">
+                        <form action="/mainpage">
                             <h1>Sign in</h1>
                             
                             <input type="email" placeholder="Email" />

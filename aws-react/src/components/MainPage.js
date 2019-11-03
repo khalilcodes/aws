@@ -6,7 +6,7 @@ class MainPage extends React.Component {
     state = {  }
     render() { 
         return ( 
-            <div class="container">
+            <div class="">
                 <div class="row" >
                     <div class="col-3" style={{border : "2px solid"}}>
                         <form class="form-inline">
@@ -40,14 +40,14 @@ class MainPage extends React.Component {
                             </ul>
                         </form>
                     </div>
-                    <div class="col-9" style={{border : "2px solid"}}>
-                        <div class="container bootstrap snippet">
+                    <div class="col-9" style={{border : "1px solid"}}>
+                        <div class=" bootstrap snippet">
                             <div class="profile card">
                                 <div class="profile-body">
                                     <div class="profile-bio">
                                         <div class="row">
                                             <div class="col-md-5 text-center">
-                                                <img class="img-thumbnail md-margin-bottom-10" src="https://bootdey.com/img/Content/user-453533-fdadfd.png" alt="" />
+                                                <img class=" md-margin-bottom-10" src="http://pngimg.com/uploads/google/google_PNG19635.png" alt="" style={{width: '300px', height: '300px'}} />
                                             </div>
                                             <div class="col-md-7">
                                                 <h2>Edward Rooster</h2>
@@ -60,13 +60,13 @@ class MainPage extends React.Component {
                                 </div>
                             </div>
                         </div>
-                        <div class="container bootstrap snippet">
+                        <div class=" bootstrap snippet">
                             <div class="profile card">
                                 <div class="profile-body">
                                     <div class="profile-bio">
                                         <div class="row">
                                             <div class="col-md-5 text-center">
-                                                <img class="img-thumbnail md-margin-bottom-10" src="https://bootdey.com/img/Content/user-453533-fdadfd.png" alt="" />
+                                                <img class=" md-margin-bottom-10" src="http://pngimg.com/uploads/amazon/amazon_PNG5.png" alt="" style={{width: '300px', height: '300px'}} />
                                             </div>
                                             <div class="col-md-7">
                                                 <h2>Edward Rooster</h2>
@@ -79,13 +79,13 @@ class MainPage extends React.Component {
                                 </div>
                             </div>
                         </div>
-                        <div class="container bootstrap snippet">
+                        <div class=" bootstrap snippet">
                             <div class="profile card">
                                 <div class="profile-body">
                                     <div class="profile-bio">
                                         <div class="row">
                                             <div class="col-md-5 text-center">
-                                                <img class="img-thumbnail md-margin-bottom-10" src="https://bootdey.com/img/Content/user-453533-fdadfd.png" alt="" />
+                                                <img class=" md-margin-bottom-10" src="http://www.pngpix.com/wp-content/uploads/2016/07/PNGPIX-COM-Microsoft-Logo-Icon-PNG-Transparent-500x500.png" alt="" />
                                             </div>
                                             <div class="col-md-7">
                                                 <h2>Edward Rooster</h2>

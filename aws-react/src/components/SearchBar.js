@@ -4,7 +4,7 @@ class SearchBar extends React.Component {
     render() {
         return (
             <div>
-            <div style={{ marginTop: '10px'}}>
+            <div style={{ marginTop: '10px', boxShadow: '0px 2px 8px #888888'}}>
                 <div className="card" style={{width: '36rem', margin: 'auto', borderRadius: '10px', position: 'absolute', left: '0', right: '0'}}>
                     <div className="card-body" style={{margin: '0', padding: '0.4rem 0.4rem 0 0.4rem'}}>
                     <div className="row">
@@ -12,7 +12,7 @@ class SearchBar extends React.Component {
                             <div className="card" style={{border: 'none'}}>
                                 <div className="card-body">
                                     <h5 className="card-title" style={{margin: '0'}}><b>What</b></h5>
-                                    <p className="card-text" style={{fontSize: '0.8rem'}}>Job title, keywords or company</p>
+                                    <p className="card-text" style={{fontSize: '0.8rem'}}><i>Job title, keywords or company</i></p>
                                     <form class="form-inline my-2 my-lg-12">
                                        <input class="form-control mr-md-6" type="search" placeholder="Search" aria-label="Search" style={{background: '#F6F6F6', borderRadius: '10px', width: '100%'}}/>
                                     </form>
@@ -23,7 +23,7 @@ class SearchBar extends React.Component {
                                 <div className="card" style={{border: 'none'}}>
                                 <div className="card-body">
                                     <h5 className="card-title" style={{margin: '0'}}><b>Where</b></h5>
-                                    <p className="card-text" style={{fontSize: '0.8rem'}}>city or state</p>
+                                    <p className="card-text" style={{fontSize: '0.8rem'}}><i>city or state</i></p>
                                     <form class="form-inline my-2 my-lg-12">
                                        <input class="form-control mr-md-6" type="search" placeholder="Search" aria-label="Search" style={{background: '#F6F6F6', borderRadius: '10px', width: '100%'}} />
                                     </form>

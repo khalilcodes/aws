@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from './logo.svg';
+import Signup from './components/Signup'
 import Navbar from './components/Navbar';
 import SearchBar from './components/SearchBar';
 import Profile from './components/profile';
@@ -7,9 +7,10 @@ import Profile from './components/profile';
 function App() {
   return (
     <div>
-      <Navbar />
+      {/* <Navbar />
       <SearchBar />
-      <Profile />
+      <Profile /> */}
+      <Signup />
     </div>
   );
 }

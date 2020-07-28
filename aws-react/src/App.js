@@ -3,23 +3,28 @@ import Signup from './components/Signup'
 import Navbar from './components/Navbar';
 import SearchBar from './components/SearchBar';
 import Profile from './components/profile';
+import Mainpage from './components/MainPage';
 import {
     BrowserRouter as Router,
     Switch,
-    Route,
-    Link
+    Route
   } from "react-router-dom";
 
 function App() {
   return (
       <Router>
     <div>
-      <Navbar />
-      <SearchBar />
-      <Profile />
       <Switch>
-          <Route path="/signup">
+          <Route exact path="/">
+            <Navbar />
+            <SearchBar />
+            <Profile />
+          </Route>
+          <Route exact path="/signup">
             <Signup />
+          </Route>
+          <Route exact path="/mainpage">
+            <Mainpage />
           </Route>
       </Switch>
     </div>

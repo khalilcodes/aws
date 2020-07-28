@@ -5,8 +5,8 @@ class SearchBar extends React.Component {
         return (
             <div>
             <div style={{ marginTop: '10px', boxShadow: '0px 2px 8px #888888'}}>
-                <div className="card" style={{width: '36rem', margin: 'auto', borderRadius: '10px', position: 'absolute', left: '0', right: '0'}}>
-                    <div className="card-body" style={{margin: '0', padding: '0.4rem 0.4rem 0 0.4rem'}}>
+                <div className="card" style={{width: '36rem', margin: 'auto', borderRadius: '10px'}}>
+                    <div className="card-body">
                     <div className="row">
                         <div className="col-md-6">
                             <div className="card" style={{border: 'none'}}>
@@ -35,7 +35,7 @@ class SearchBar extends React.Component {
                     </div>
                 </div>
             </div>
-            <div className="card" style={{width: '20rem', margin: '0 auto', borderRadius: '10px', position: 'relative', top: '9rem', border: 'none'}}>
+            <div className="card" style={{width: '20rem', margin: '0 auto', borderRadius: '10px', border: 'none'}}>
                 <div className="card-body" style={{margin: '0', textAlign: 'center', padding: '0 0.3rem 0.3rem 0.3rem'}}>
                     <button style={{width: '100%',borderRadius: '10px', background: '#2680EB', padding: '1.2rem', color: 'white'}}><b>F i n d</b></button>
                 </div>

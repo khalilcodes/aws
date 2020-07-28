@@ -4,7 +4,7 @@ class Profile extends React.Component {
     render(){
         return(
             <div>
-                <div className="container" style={{margin: '10rem auto'}}>
+                
                 <div className="card" style={{margin: '1rem auto', width: '60%', borderRadius: '9px', boxShadow: '0px 2px 8px #888888'}}>
                     <div className="card-body">
                     <div class="list-group rounded-0">
@@ -34,7 +34,7 @@ class Profile extends React.Component {
                     </div>
                     </div>
                 </div>
-                </div>
+                
             </div>
         )
     }

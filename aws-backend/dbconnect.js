@@ -1,5 +1,6 @@
+require('dotenv').config()
 const mongoose = require('mongoose')
-mongoose.connect("mongodb+srv://khalil:khalil@kb-jgdlm.gcp.mongodb.net/aws?retryWrites=true&w=majority", 
+mongoose.connect(`${process.env.DATABASE}`, 
 {useNewUrlParser: true, useUnifiedTopology: true}, 
 (err)=> {
     if (err) throw err;
